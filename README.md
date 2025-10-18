@@ -17,8 +17,7 @@ Complete Linux system = Kernel + GNU system utilities and libraries + other mana
 What is Shell?
 A shell is a special user program that provides an interface for the user to use operating system services. Shell accepts human-readable commands from users and converts them into something which the kernel can understand. It is a command language interpreter that executes commands read from input devices such as keyboards or from files. The shell gets started when the user logs in or starts the terminal.
 
-Linux Shell
-Linux Shell
+
 Shell is broadly classified into two categories –
 
 Command Line Shell
@@ -26,10 +25,8 @@ Graphical shell
 Command Line Shell
 Shell can be accessed by users using a command line interface. A special program called Terminal in Linux/macOS, or Command Prompt in Windows OS is provided to type in the human-readable commands such as "cat", "ls" etc. and then it is being executed. The result is then displayed on the terminal to the user. A terminal in Ubuntu 25.04 system looks like this:
 
-linux command line
-linux command line
-In the above screenshot "ls" command with "-l" option is executed. It will list all the files in the current working directory in a long listing format.
-Working with a command line shell is a bit difficult for beginners because it’s hard to memorize so many commands. It is very powerful; it allows users to store commands in a file and execute them together. This way any repetitive task can be easily automated. These files are usually called batch files in Windows and Shell Scripts in Linux/macOS systems.
+
+
 
 Graphical Shells
 Graphical shells provide means for manipulating programs based on the graphical user interface (GUI), by allowing for operations such as opening, closing, moving, and resizing windows, as well as switching focus between windows. Window OS or Ubuntu OS can be considered as a good example which provides GUI to the user for interacting with the program. Users do not need to type in commands for every action. A typical GUI in the Ubuntu system:
@@ -46,17 +43,6 @@ Each shell does the same job but understands different commands and provides dif
 What is a terminal?
 A program which is responsible for providing an interface to a user so that he/she can access the shell. It basically allows users to enter commands and see the output of those commands in a text-based interface. Large scripts that are written to automate and perform complex tasks are executed in the terminal.
 
-
-To access the terminal, simply search in search box "terminal" and double-click it.
-
-open terminal
-open terminal
-Here you can see how the terminal looks of Red Hat Linux.
-
-terminal
-terminal
-Getting Started with Shell Scripting
-In the world of DevOps and system administration, automating repetitive tasks is key to saving time and reducing errors. That’s where shell scripting comes in. It allows you to write a series of commands in a file and run them all at once, just like a program. Whether it is setting up servers, managing files, or deploying code shell scripts make it fast, consistent, and effortless.
 
 What is Shell Script?
 A shell script is a file containing a series of commands for the shell to execute. The shell itself is a command-line interpreter (CLI), while a shell script is a saved list of instructions (usually with .sh extension) like myscript.sh.
@@ -94,8 +80,4 @@ Shell Commands: cd, ls, echo, pwd, touch, etc.
 Functions
 Control Flow: if..then..else, case, loops, etc.
 Simple demo of shell scripting using Bash Shell
-If you work on a terminal, something you traverse deep down in directories. Then for coming few directories up in path we have to execute a command like this as shown below to get to the "python" directory:
 
-get to the “python” directory:
-get to the “python” directory:
-It is quite frustrating, so why not we can have a utility where we just have to type the name of directory and we can directly jump to that without executing the "cd ../" command again and again. Save the script as "jump.sh"
